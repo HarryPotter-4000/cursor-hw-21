@@ -1,0 +1,130 @@
+.container {
+  box-sizing: border-box;
+  padding: 16px 12px;
+  background-color: #15202b;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: sans-serif;
+  width: 600px;
+  margin: 16px 0;
+  border-radius: 15px;
+  border: 2px solid #8899a6;
+}
+
+.avatar {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 8px;
+}
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 0 4px;
+}
+.name {
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+.check {
+  color: white;
+  margin: 0 4px 0 0; 
+}
+.nickname {
+  font-size: 19px;
+  color: #8899a6;
+  margin: 0 4px 0 0;
+}
+.date {
+  font-size: 19px;
+  color: #8899a6;
+  margin: 0;
+}
+.arrow {
+  color: #8899a6;
+  margin: 0;
+  width: 10%;
+  text-align: right;
+}
+.content {
+  color: white;
+}
+.photo {
+  width: 100%;
+  border-radius: 8px;
+  margin: 0 0 8px;
+}
+.socials {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #8899a6;
+}
+p {
+  margin: 0;
+  color: #8899a6;
+  font-size: 19px;
+}
+i {
+  margin-right: 8px;
+}
+@media (max-width: 601px) {
+  .container {
+    width: 350px;
+    padding: 16px 4px;
+  }
+
+  .title {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .name {
+    width: 60%;
+    font-size: 19px;
+  }
+
+  .nickname {
+    width: 40%;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .date {
+    width: 20%;
+    font-size: 16px;
+  }
+  .arrow {
+    display: none;
+  }
+  .photo {
+    width: 98%;
+  }
+  .socials p {
+    font-size: 16px;
+    color: #8899a6;
+  }
+}
