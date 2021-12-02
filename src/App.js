@@ -17,10 +17,10 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={ <HomePage title='Home'/> } />
-        <Route path="/contacts" element={ <ContactsPage title='Contacts' /> } />
-        <Route path="/gallery" element={ <GalleryPage title='Gallery' /> } />
-        <Route path="/starwars" element={ <StarWarsPage title='Star Wars' /> } />
+        <Route path="/cursor-hw-21/" element={ <HomePage title='Home'/> } />
+        <Route path="/contacts/" element={ <ContactsPage title='Contacts' /> } />
+        <Route path="/gallery/" element={ <GalleryPage title='Gallery' /> } />
+        <Route path="/starwars/" element={ <StarWarsPage title='Star Wars' /> } />
       </Routes>
     </Router>
   );

@@ -12,10 +12,10 @@ function Header() {
     <div className={headerStyles.navigation}>
       <Link className={ headerStyles.logo }to='/home'><img src={logo} alt=""/></Link>
       <ul className={ headerStyles.list }>
-        <li><NavLink to='/' className={ getClassName}>Home</NavLink></li>
-        <li><NavLink to='/starwars' className={ getClassName}>Cards</NavLink></li>
-        <li><NavLink to='/gallery' className={ getClassName}>Photo</NavLink></li>
-        <li><NavLink to='/contacts' className={ getClassName}>Contacts</NavLink></li>
+        <li><NavLink to='/cursor-hw-21/' className={ getClassName}>Home</NavLink></li>
+        <li><NavLink to='/starwars/' className={ getClassName}>Cards</NavLink></li>
+        <li><NavLink to='/gallery/' className={ getClassName}>Photo</NavLink></li>
+        <li><NavLink to='/contacts/' className={ getClassName}>Contacts</NavLink></li>
       </ul>
     </div>
     
